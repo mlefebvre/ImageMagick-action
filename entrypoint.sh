@@ -1,4 +1,3 @@
 #!/bin/sh -l
-#cd $1
-#mogrify -path . -auto-orient -thumbnail $2 *.*
-$1
+output=$($1)
+echo "::set-output name=output::$output"
