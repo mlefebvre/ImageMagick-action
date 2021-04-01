@@ -10,8 +10,8 @@ inputs:
     required: true
     default: 'mogrify -path src/assets/images -auto-orient -resize x500 src/assets/images/*.*'
 outputs:
-  time:
-    description: 'The time we greeted you'
+  output:
+    description: 'The output of the command'
     
 runs:
   using: 'docker'
